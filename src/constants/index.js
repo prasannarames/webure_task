@@ -1,4 +1,4 @@
-import { comp1, comp2, comp3, comp4, dAnalysis, dMarketing, eMarketing } from "../assets"
+import { comp1, comp2, comp3, comp4, dAnalysis, dMarketing, eMarketing, strategy1, strategy2 } from "../assets"
 export const navLinks = [
     {
         id: "home",
@@ -85,3 +85,27 @@ export const stats = [
         statvalue: 20,
     },
 ];
+
+export const strategies = [
+    {
+        id: 1,
+        title: "Perfect Strategy",
+        sub: "Based on research and analysis, we plan to itroduce revolutionary solutions",
+        imgUrl: strategy1,
+    },
+    {
+        id: 2,
+        title: "Innovative Ideas",
+        sub: "We build electrified relations between products and humans",
+        imgUrl: strategy2,
+    },
+    {
+        id: 3,
+        title: "Effective Solutions",
+        sub: "Prefected matched activities follou us to achieve goles in short time",
+        imgUrl: strategy2,
+    },
+
+];
+
+
