@@ -1,0 +1,41 @@
+.comp-img {
+  width: 100px;
+  height: 100px;
+  animation: scroll 10s linear infinite;
+}
+
+.slide-track {
+  width: 100%;
+  
+  overflow: hidden;
+}
+
+.slider {
+  margin-top: 30px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translatex(-100%);
+  }
+}
+
+.hr {
+    border: .5px solid;
+  
+    border-image-source: linear-gradient(
+      270deg,
+      rgba(78, 78, 78, 0) -1.35%,
+      #434343 48.81%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    background: linear-gradient(
+      270deg,
+      rgba(78, 78, 78, 0) -1.35%,
+      #434343 48.81%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }

@@ -1,3 +1,4 @@
+import { comp1, comp2, comp3, comp4 } from "../assets"
 export const navLinks = [
     {
         id: "home",
@@ -18,5 +19,24 @@ export const navLinks = [
     {
         id: "clients",
         title: "Clients",
+    },
+];
+
+export const companiesLogo = [
+    {
+        id: "slack",
+        imgUrl: comp1,
+    },
+    {
+        id: "marketo",
+        imgUrl: comp2,
+    },
+    {
+        id: "stripe",
+        imgUrl: comp3,
+    },
+    {
+        id: "razorpay",
+        imgUrl: comp4,
     },
 ];
