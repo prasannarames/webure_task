@@ -1,35 +1,72 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import {
+  Clients,
+  Companies,
+  Expertise,
+  Footer,
+  Header,
+  Hero,
+  HowItWorks,
+  OurWorks,
+  Plans,
+  WhyUs,
+} from "./components";
+import styles from "./styles";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="bg-primary w-full overflow-hidden font-opensans">
+      <div className={`${styles.flexCenter} ${styles.paddingX}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Header />
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className={`bg-gradient-1 ${styles.flexCenter} ${styles.paddingX}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Hero />
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+      <div className={`${styles.flexCenter} ${styles.paddingX}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Companies />
+        </div>
+      </div>
+      <div className={`${styles.flexCenter} ${styles.paddingX}`}>
+        <div className={`${styles.boxWidth}`}>
+          <HowItWorks />
+        </div>
+      </div>
+      <div className={`${styles.flexCenter} ${styles.paddingX}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Expertise />
+        </div>
+      </div>
+      <div className={`${styles.flexCenter} ${styles.paddingX}`}>
+        <div className={`${styles.boxWidth}`}>
+          <WhyUs />
+        </div>
+      </div>
+      <div className={`${styles.flexCenter} ${styles.paddingX}`}>
+        <div className={`${styles.boxWidth}`}>
+          <OurWorks />
+        </div>
+      </div>
+
+      <div className={`${styles.flexCenter} ${styles.paddingX}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Plans />
+        </div>
+      </div>
+      <div className={` bg-gradient-2 ${styles.flexCenter} ${styles.paddingX}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Clients />
+        </div>
+      </div>
+      <div className={` bg-footer primary-footer ${styles.flexCenter} ${styles.paddingX}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Footer />
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
