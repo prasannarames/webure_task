@@ -52,5 +52,8 @@
 .bg-btn-white {
   background: #ffffff;
 }
-
-
+.highlight {
+  background: #ffffff;
+  box-shadow: 0px 4.09207px 25.2717px 6.52174px rgba(0, 0, 0, 0.2);
+  border-radius: 12.2283px;
+}

@@ -1,4 +1,4 @@
-import { comp1, comp2, comp3, comp4 } from "../assets"
+import { comp1, comp2, comp3, comp4, dAnalysis, dMarketing, eMarketing } from "../assets"
 export const navLinks = [
     {
         id: "home",
@@ -39,4 +39,26 @@ export const companiesLogo = [
         id: "razorpay",
         imgUrl: comp4,
     },
+];
+
+export const howItWorks = [
+    {
+        id: "digital analysis",
+        title: "Digital Analysis",
+        sub: "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        imgUrl: dAnalysis,
+    },
+    {
+        id: "digital marketing",
+        title: "Digital Marketing",
+        sub: "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        imgUrl: dMarketing,
+    },
+    {
+        id: "email marketing",
+        title: "Email Marketing",
+        sub: "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        imgUrl: eMarketing,
+    },
+
 ];
