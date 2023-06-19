@@ -62,3 +62,26 @@ export const howItWorks = [
     },
 
 ];
+
+export const stats = [
+    {
+        id: 1,
+        statTitle: "Years in field",
+        statvalue: 6,
+    },
+    {
+        id: 2,
+        statTitle: "Expertise",
+        statvalue: 10,
+    },
+    {
+        id: 3,
+        statTitle: "Projects",
+        statvalue: 50,
+    },
+    {
+        id: 4,
+        statTitle: "Agency Partners",
+        statvalue: 20,
+    },
+];

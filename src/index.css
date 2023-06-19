@@ -57,3 +57,7 @@
   box-shadow: 0px 4.09207px 25.2717px 6.52174px rgba(0, 0, 0, 0.2);
   border-radius: 12.2283px;
 }
+/* for expertise */
+.boxShadow {
+  box-shadow: 0px 0px 22.3333px 0.930555px rgba(238, 238, 238, 0.88);
+}
