@@ -2,7 +2,7 @@ import { whyUs } from "../assets";
 import { strategies } from "../constants";
 const WhyUs = () => {
   return (
-    <div className="flex items-center justify-center mt-20 mb-40">
+    <div className="flex items-center justify-center mt-20 mb-24">
       <div className="w-[570px] h-[420px] m-auto">
         <p className="font-bold text-[22px] leading-[11px] text-[#FF5D22]">
           Why Us

@@ -50,17 +50,19 @@ function App() {
         </div>
       </div>
 
-      <div className={`${styles.flexCenter} ${styles.paddingX}`}>
+      <div className={` bg-gradient-2 ${styles.flexCenter} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
           <Plans />
         </div>
       </div>
-      <div className={` bg-gradient-2 ${styles.flexCenter} ${styles.paddingX}`}>
+      <div className={`  ${styles.flexCenter} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
           <Clients />
         </div>
       </div>
-      <div className={` bg-footer primary-footer ${styles.flexCenter} ${styles.paddingX}`}>
+      <div
+        className={` bg-footer primary-footer ${styles.flexCenter} ${styles.paddingX}`}
+      >
         <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>

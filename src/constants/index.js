@@ -1,4 +1,4 @@
-import { comp1, comp2, comp3, comp4, dAnalysis, dMarketing, eMarketing, strategy1, strategy2 } from "../assets"
+import { comp1, comp2, comp3, comp4, dAnalysis, dMarketing, eMarketing, strategy1, strategy2, emailM, growthM, contentM } from "../assets"
 export const navLinks = [
     {
         id: "home",
@@ -107,5 +107,32 @@ export const strategies = [
     },
 
 ];
+
+export const works = [
+    {
+        id: 1,
+        title: "Email Marketing",
+        category: "Fashion, product",
+        imgUrl: emailM,
+        bgColor: "#AADDFF",
+    },
+    {
+        id: 2,
+        title: "Content Marketing",
+        category: "Fashion, product",
+        imgUrl: contentM,
+        bgColor: "#FFBAD2",
+    },
+    {
+        id: 3,
+        title: "Growth Marketing",
+        category: "Fashion, product",
+        imgUrl: growthM,
+        bgColor: "#E0FF9C",
+    },
+
+];
+
+
 
 
