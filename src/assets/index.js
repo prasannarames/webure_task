@@ -33,8 +33,10 @@ import whyUs from "./why-us.png";
 import youtube from "./youtube.svg";
 import ytFooter from "./yt-footer.svg";
 import arrowblack from "./arrow-black.svg";
+import footerBg from "./footer-bg.png";
 
 export {
+    footerBg,
     arrowblack,
     arrowRight,
     behance,

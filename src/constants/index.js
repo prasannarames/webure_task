@@ -1,4 +1,22 @@
-import { comp1, comp2, comp3, comp4, dAnalysis, dMarketing, eMarketing, strategy1, strategy2, emailM, growthM, contentM } from "../assets"
+import {
+    comp1,
+    comp2,
+    comp3,
+    comp4,
+    dAnalysis,
+    dMarketing,
+    eMarketing,
+    strategy1,
+    strategy2,
+    emailM,
+    growthM,
+    contentM,
+    ytFooter,
+    fbFooter,
+    twitterFooter,
+    gPlusFooter,
+    instaFooter,
+} from "../assets";
 export const navLinks = [
     {
         id: "home",
@@ -60,7 +78,6 @@ export const howItWorks = [
         sub: "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
         imgUrl: eMarketing,
     },
-
 ];
 
 export const stats = [
@@ -105,7 +122,6 @@ export const strategies = [
         sub: "Prefected matched activities follou us to achieve goles in short time",
         imgUrl: strategy2,
     },
-
 ];
 
 export const works = [
@@ -130,9 +146,199 @@ export const works = [
         imgUrl: growthM,
         bgColor: "#E0FF9C",
     },
+];
+
+export const footerData = [
+    {
+        id: 1,
+        title: "Our Company",
+
+    },
+    {
+        id: 2,
+        title: "Build You Team",
+
+
+    },
+    {
+        id: 3,
+        title: "Services",
+
+    },
+    {
+        id: 4,
+        title: "Resources",
+
+    }
+];
+
+export const ourCampany = [
+    {
+        id: 1,
+        title: "About Webure",
+    },
+    {
+        id: 2,
+        title: "Pricing",
+    },
+    {
+        id: 3,
+        title: "Referral Program",
+    },
+    {
+        id: 4,
+        title: "#GivingBackToCommunity",
+    },
+    {
+        id: 5,
+        title: "Employee Referral",
+    },
+    {
+        id: 6,
+        title: "Our Culture",
+    },
+    {
+        id: 7,
+        title: "Corporate Social Responsibilty",
+    },
+    {
+        id: 8,
+        title: "Careers",
+    },
+    {
+        id: 9,
+        title: "Contact Us",
+    },
+    {
+        id: 10,
+        title: "FAQs",
+    },
+];
+
+export const buildYourTeam = [
+    {
+        id: 1,
+        title: "How It Works",
+    },
+    {
+        id: 2,
+        title: "Why Offshore",
+    },
+    {
+        id: 3,
+        title: "Pricing Estimator",
+    },
+    {
+        id: 4,
+        title: "Video Profiles",
+    },
+    {
+        id: 5,
+        title: "About Webure",
+    },
+    {
+        id: 6,
+        title: "Remote Blogs",
+    },
+    {
+        id: 7,
+        title: "Take The Assignment",
+    },
 
 ];
 
+export const services = [
+    {
+        id: 1,
+        title: "SEO Service",
+    },
+    {
+        id: 2,
+        title: "SME Service",
+    },
+    {
+        id: 3,
+        title: "Email Marketing",
+    },
+    {
+        id: 4,
+        title: "Design Services",
+    },
+    {
+        id: 5,
+        title: "Front-End Development",
+    },
+    {
+        id: 6,
+        title: "Wordpress Development",
+    },
+    {
+        id: 7,
+        title: "HubSpot Devlopment",
+    },
+    {
+        id: 8,
+        title: "Marketo Automation",
+    },
+    {
+        id: 9,
+        title: "Salesforce Automation",
+    },
 
+];
 
+export const resources = [
+    {
+        id: 1,
+        title: "Blogs",
+    },
+    {
+        id: 2,
+        title: "Podcast",
+    },
+    {
+        id: 3,
+        title: "Case Studies",
+    },
+    {
+        id: 4,
+        title: "Testimonials",
+    },
+    {
+        id: 5,
+        title: "eBooks",
+    },
+    {
+        id: 6,
+        title: "Infographics",
+    },
 
+];
+
+export const socials = [
+    {
+        id: 1,
+        title: "facebook",
+        imgUrl: fbFooter,
+    },
+    {
+        id: 2,
+        title: "youtube",
+        imgUrl: ytFooter,
+    },
+    {
+        id: 3,
+        title: "twitter",
+        imgUrl: twitterFooter,
+    },
+    {
+        id: 4,
+        title: "gplus",
+        imgUrl: gPlusFooter,
+    },
+    {
+        id: 5,
+        title: "instagram",
+        imgUrl: instaFooter,
+    },
+]
