@@ -10,3 +10,9 @@
 - https://www.figma.com/file/ooUYPYw69dBb5B5JyLCTDs/Assestment?type=design&node-id=0%3A1&t=xvMMh1783UGOtjry-1
 
 ![Screenshot](./src/assets/Screenshot%20from%202023-06-21%2013-07-04.png)
+
+## TECH STACK
+- React
+- Tailwindcss
+- vite
+
