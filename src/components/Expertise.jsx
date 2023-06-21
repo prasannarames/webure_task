@@ -1,7 +1,29 @@
+import { useEffect, useState } from "react";
 import { arrowblack, webSolutions } from "../assets";
 import { stats } from "../constants";
 
 const Expertise = () => {
+  const [count, setCount] = useState(0);
+  
+  const maximum = 10;
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCount((prevCount) => {
+        if (prevCount < maximum) {
+          return prevCount + 1;
+        } else {
+          clearInterval(interval);
+          return prevCount;
+        }
+      });
+    }, 1000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
   return (
     <div>
       <div className="flex items-center mt-10">
@@ -31,15 +53,13 @@ const Expertise = () => {
           <img src={`${webSolutions}`} alt="employee_image" />
         </div>
       </div>
-      <div className="flex justify-center items-center gap-5 w-[1227px] h-[268px] m-auto">
+      <div className="flex justify-center items-center gap-5 w-[1227px] h-[268px] m-auto ">
         {stats.map((stat) => (
           <div
             key={`${stat.id}`}
             className=" flex flex-col justify-center items-center w-[232px] h-[232px] rounded-md boxShadow mt-10"
           >
-            <p className="font-bold text-[94px] leading-[127px]">
-              {stat.statvalue}+
-            </p>
+            <p className="font-bold text-[94px] leading-[127px]">{count}+</p>
             <p className="font-bold text-[27px] leading-[38px] text-[#828282]">
               {stat.statTitle}
             </p>

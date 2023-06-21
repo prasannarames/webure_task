@@ -14,13 +14,13 @@ const OurWorks = () => {
         {works.map((work) => (
           <div
             key={`${work.id}`}
-            className="flex flex-col w-[339px] h-[449px] justify-center items-center"
+            className="flex flex-col w-[339px] h-[449px] justify-center items-center hover:border-2"
           >
             <img
               src={`${work.imgUrl}`}
               alt={`${work.title}`}
               className={`w-[339px] h-[339px] object-contain`}
-              style={{ backgroundColor: `${work.bgColor}`}}
+              style={{ backgroundColor: `${work.bgColor}` }}
             />
             <p className="font-bold text-[26px] leading-[35px] mt-4">{`${work.title}`}</p>
             <p className="font-semibold text-[18px] leading-[25px] text-[#4F4F4F]">{`${work.category}`}</p>

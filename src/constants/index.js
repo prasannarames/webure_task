@@ -152,24 +152,19 @@ export const footerData = [
     {
         id: 1,
         title: "Our Company",
-
     },
     {
         id: 2,
         title: "Build You Team",
-
-
     },
     {
         id: 3,
         title: "Services",
-
     },
     {
         id: 4,
         title: "Resources",
-
-    }
+    },
 ];
 
 export const ourCampany = [
@@ -244,7 +239,6 @@ export const buildYourTeam = [
         id: 7,
         title: "Take The Assignment",
     },
-
 ];
 
 export const services = [
@@ -284,7 +278,6 @@ export const services = [
         id: 9,
         title: "Salesforce Automation",
     },
-
 ];
 
 export const resources = [
@@ -312,7 +305,6 @@ export const resources = [
         id: 6,
         title: "Infographics",
     },
-
 ];
 
 export const socials = [
@@ -341,4 +333,34 @@ export const socials = [
         title: "instagram",
         imgUrl: instaFooter,
     },
-]
+];
+
+export const address = [
+    {
+        id: 1,
+        country: "India",
+        city: "Bangalore",
+        location:
+            "#310G, Whitefield Post Office Road, Whiefield, Bangalore, Karnataka 560103, India",
+    },
+    {
+        id: 2,
+        country: "Canada",
+        city: "Hamilton",
+        location: " 155-2 King Street West Unit #145 Hamilton, ON L8P 4S0 Canada",
+    },
+    {
+        id: 3,
+        country: "Newyork",
+        city: "Newyork city",
+        location:
+            " One World Trade Center, 285 Fulton Street Suite 8500, New York City NY 10007, USA",
+    },
+    {
+        id: 4,
+        country: "New zealand",
+        city: "Auckland",
+        location:
+            "Level 26, HSBC Tower, 188 Quay Street, Auckland, AUK 1010 New Zealand",
+    },
+];
