@@ -140,10 +140,20 @@ const Footer = () => {
       </div>
       <div className="flex justify-center items-center">
         <h1 className="mr-5">
-          <a href="https://github.com/prasannarames/webure_task">SOURCE</a>
+          <a
+            href="https://github.com/prasannarames/webure_task"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            SOURCE
+          </a>
         </h1>
         <h1>
-          <a href="https://www.figma.com/file/ooUYPYw69dBb5B5JyLCTDs/Assestment?type=design&node-id=0%3A1&t=xvMMh1783UGOtjry-1">
+          <a
+            href="https://www.figma.com/file/ooUYPYw69dBb5B5JyLCTDs/Assestment?type=design&node-id=0%3A1&t=xvMMh1783UGOtjry-1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             DESIGN LINK
           </a>
         </h1>
